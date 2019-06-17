@@ -2,6 +2,9 @@ import { Dimensions, Text, View, ViewPropTypes } from 'react-native';
 import PropTypes from 'prop-types';
 import React from 'react';
 
+const { width, height } = Dimensions.get('window');
+const potrait = height > width;
+
 const Page = ({
   isLight,
   image,
@@ -40,7 +43,7 @@ const Page = ({
 
   return (
     <View style={[styles.container, containerStyles, { width, height }]}>
-      <View style={[styles.imageContainer, imageContainerStyles]}>{image}</View>
+      <View style={[styles.imageContainer, imageContainerStyles, { paddingBottom: potrait ? paddingBottomImg : 10, }]}>{image}</View>
       {titleElement}
       {subtitleElement}
     </View>
@@ -60,6 +63,7 @@ Page.propTypes = {
   subTitleStyles: Text.propTypes.style,
   width: PropTypes.number.isRequired,
   height: PropTypes.number.isRequired,
+  paddingBottomImg: propTypes.isRequired
 };
 
 Page.defaultProps = {
@@ -70,8 +74,7 @@ Page.defaultProps = {
   subTitleStyles: null,
 };
 
-const { width, height } = Dimensions.get('window');
-const potrait = height > width;
+
 
 const styles = {
   container: {
@@ -83,7 +86,6 @@ const styles = {
   },
   imageContainer: {
     flex: 0,
-    paddingBottom: potrait ? paddingBottomImg : 10,
     alignItems: 'center',
     width: '100%',
   },
