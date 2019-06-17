@@ -3,7 +3,7 @@
 | ![](demo/simple1.png) | ![](demo/simple2.png) | ![](demo/demo.gif) |
 | --------------------- | --------------------- | ------------------ |
 
-Is a Fork from [](https://github.com/jfilter/react-native-onboarding-swiper/)
+Is a Fork from [https://github.com/jfilter/react-native-onboarding-swiper/](https://github.com/jfilter/react-native-onboarding-swiper/)
 
 There are many ways to onboard people to your mobile app. But for React-Native, there is solely _one_ component that is a) **easy to setup** and b) **highly customizable**:
 `rn-onboarding-swiper`.
