@@ -63,7 +63,7 @@ Page.propTypes = {
   subTitleStyles: Text.propTypes.style,
   width: PropTypes.number.isRequired,
   height: PropTypes.number.isRequired,
-  paddingBottomImg: propTypes.isRequired
+  paddingBottomImg: PropTypes.number.isRequired
 };
 
 Page.defaultProps = {

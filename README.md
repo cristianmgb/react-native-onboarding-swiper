@@ -1,11 +1,12 @@
-# `<Onboarding />` [![npm](https://img.shields.io/npm/v/react-native-onboarding-swiper.svg)](https://www.npmjs.com/package/react-native-onboarding-swiper-bellpi) [![npm](https://img.shields.io/npm/dm/react-native-onboarding-swiper.svg)](https://www.npmjs.com/package/react-native-onboarding-swiper-bellpi)
+# `<Onboarding />` [![npm](https://img.shields.io/npm/v/react-native-onboarding-swiper.svg)](https://www.npmjs.com/package/rn-onboarding-swiper) [![npm](https://img.shields.io/npm/dm/react-native-onboarding-swiper.svg)](https://www.npmjs.com/package/rn-onboarding-swiper)
 
 | ![](demo/simple1.png) | ![](demo/simple2.png) | ![](demo/demo.gif) |
 | --------------------- | --------------------- | ------------------ |
 
+Is a Fork from [](https://github.com/jfilter/react-native-onboarding-swiper/)
 
 There are many ways to onboard people to your mobile app. But for React-Native, there is solely _one_ component that is a) **easy to setup** and b) **highly customizable**:
-`react-native-onboarding-swiper-bellpi`.
+`rn-onboarding-swiper`.
 
 Your new users shouldn't jump in at the deep end. First give them a pleasurable, delightful introduction and only then let them explore your awesome app.
 
@@ -14,11 +15,11 @@ Getting everything running merely takes a minute. Don't believe me? Try it out!
 ## Install
 
 ```bash
-npm i react-native-onboarding-swiper-bellpi
+npm i rn-onboarding-swiper
 ```
 
 ```js
-import Onboarding from 'react-native-onboarding-swiper-bellpi';
+import Onboarding from 'rn-onboarding-swiper';
 ```
 
 ## Usage
@@ -50,6 +51,7 @@ Also check out the three examples files: the [simple example](examples/Simple.js
   * `image` (required): a component (e.g. `<Image />`) to display at the top of the page.
   * `title` (required): a string **OR** a React-Native component.
   * `subtitle` (required): a string **OR** a React-Native component.
+  * `paddingBottomImg` (required): a number - padding bottom between the image and the title
 
 ## Optional Properties
 
