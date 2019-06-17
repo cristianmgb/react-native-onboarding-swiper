@@ -1,6 +1,6 @@
 {
-  "name": "react-native-onboarding-swiper",
-  "version": "1.1.0",
+  "name": "react-native-onboarding-swiper-bellpi",
+  "version": "1.2.0",
   "description": "Delightful Onboarding for your React-Native App",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jfilter/react-native-onboarding-swiper"
+    "url": "git+https://github.com/cristianmgb/react-native-onboarding-swiper"
   },
   "keywords": [
     "React",

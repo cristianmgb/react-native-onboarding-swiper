@@ -80,6 +80,7 @@ class Onboarding extends Component {
       allowFontScalingText,
       titleStyles,
       subTitleStyles,
+      paddingBottomImg
     } = this.props;
 
     return (
@@ -103,6 +104,7 @@ class Onboarding extends Component {
           subTitleStyles || {},
           item.subTitleStyles || {}
         )}
+        paddingBottomImg={paddingBottomImg}
       />
     );
   };
